@@ -1,6 +1,6 @@
 {
   "name": "docute-prefix-link",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Absolutify relative links in Docute docs.",
   "repository": {
     "url": "egoist/docute-prefix-link",
