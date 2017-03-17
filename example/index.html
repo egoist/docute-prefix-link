@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>example</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute/dist/docute.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/docute"></script>
+    <script src="../dist/index.js"></script>
+    <script>
+      docute.init({
+        plugins: [
+          docuteRelativeLink({
+            linkPrefix: 'https://alpha.wallhaven.cc/wallpaper/',
+            imagePrefix: 'https://wallpapers.wallhaven.cc/wallpapers/full'
+          })
+        ]
+      })
+    </script>
+  </body>
+</html>
