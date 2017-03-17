@@ -13,7 +13,7 @@
 ```js
 docute.init({
   plugins: [
-    docutePrefixLink('http:/my-prefix.com/path)
+    docutePrefixLink('http:/my-prefix.com/path')
   ]
 })
 ```
