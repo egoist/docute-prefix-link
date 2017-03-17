@@ -29,9 +29,9 @@ Then it will convert relative link in markdown to absolute link:
 With `docutePrefixLink('http://example.com')` you got:
 
 ```html
-<a href="http://example.com" target="_blank">foo</a>
-<a href="http://example.com" target="_blank">foo</a>
-<a href="http://example.com" target="_blank">foo</a>
+<a href="http://example.com/foo" target="_blank">foo</a>
+<a href="http://example.com/foo" target="_blank">foo</a>
+<a href="http://example.com/foo" target="_blank">foo</a>
 ```
 
 Only links that are not started with `https://` will be prefixed.
