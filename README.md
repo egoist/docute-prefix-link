@@ -5,7 +5,7 @@
 ## Install
 
 ```html
-<script src="https://unpkg.com/docute-relative-link"></script> 
+<script src="https://unpkg.com/docute-prefix-link"></script> 
 ```
 
 ## Usage
