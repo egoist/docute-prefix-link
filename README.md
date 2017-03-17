@@ -13,7 +13,7 @@
 ```js
 docute.init({
   plugins: [
-    docutePrefixLink('http:/my-prefix.com/path')
+    docutePrefixLink('http://my-prefix.com/path')
   ]
 })
 ```
@@ -34,7 +34,7 @@ With `docutePrefixLink('http://example.com')` you got:
 <a href="http://example.com/foo" target="_blank">foo</a>
 ```
 
-Only links that are not started with `https://` will be prefixed.
+Only links that are not started with `http(s)://` will be prefixed.
 
 ## Contributing
 
